@@ -23,6 +23,7 @@ body{
 }
 #nav_options{
     margin: 5px;
+    font-weight: bold;
 }
 .options{
     text-decoration: none;
