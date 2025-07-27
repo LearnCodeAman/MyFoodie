@@ -5,6 +5,8 @@
 body{
     background-color: #EBE2E0;
 }
+
+
 #name{
     text-align: end;
     text-shadow: 3px 3px #EBE2E0;
@@ -24,13 +26,16 @@ body{
 #nav_options{
     margin: 5px;
     font-weight: bold;
+    display: flex;
 }
 .options{
     text-decoration: none;
-    padding: 50px;
+    padding: 0px 100px;
     color: #EBE2E0;
     font-size: 22px;
 }
+
+
 main{
     margin: 4vh;
 }
@@ -52,6 +57,14 @@ main{
     padding: 5px;
     width: 30vw;
     font-size: 25px;
+}
+@media screen and (max-width: 990px){
+    #heading{
+        width: 80vw;
+    }
+    #description{
+        width: 70vw;
+    }
 }
 .image{
     width: 350px;
@@ -162,7 +175,7 @@ a > .restaurant_info{
     text-shadow: 3px 3px #999999;
 }
 .membership_name > img{
-    height: 100px;
+    height: 10vh;
 }
 .saving{
     color: #F2CA46;
@@ -192,17 +205,33 @@ a > .restaurant_info{
     gap: 5vw;
     padding: 10px;
 }
+@media screen and (max-width: 990px) {
+    #mobile_app{
+        flex-direction: column;
+    }
+    .top{
+        flex-direction: column;
+    }
+    #nav_options{
+        flex-direction: column;
+        margin: 0px
+    }
+}
+.download_here{
+    text-align: center;
+}
 .download_here img{
     height: 5vh;
     margin-top: 20px;
 }
 .download_text > h3{
-    font-size: 40px;
+    font-size: 5vh;
     color: white;
     margin-bottom: 10px;
 }
 .download_text > p{
-    font-size: 20px;
+    font-size: 2.5vh;
+    text-align: center;
 }
 .mobile > img{
     height: 30vh;
